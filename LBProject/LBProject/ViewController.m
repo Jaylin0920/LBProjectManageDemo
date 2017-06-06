@@ -18,7 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -26,12 +25,9 @@
     [self presentViewController:testVC animated:YES completion:nil];
 }
 
-
 - (IBAction)btnClick:(UIButton *)sender {
     [LBLibrary lbLog];
 }
-
-
 
 
 @end
