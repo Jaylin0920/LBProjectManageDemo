@@ -19,6 +19,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     //从bundle中加载
+    //(关于从bundle读取内容的详细介绍，可查看我另一篇文章【LBBundleDemo】)
     UIImageView *imgView1 = [[UIImageView alloc]initWithImage:[self imageFromXCSDKBundleNamed:@"success"]];
     imgView1.frame = CGRectMake(10, 100, 50, 50);
     [self.view addSubview:imgView1];
